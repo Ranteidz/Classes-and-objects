@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Classes and objects.iml" filepath="$PROJECT_DIR$/Classes and objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 7.01/Exercise 7.01.iml" filepath="$PROJECT_DIR$/Exercise 7.01/Exercise 7.01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 7.02/Exercise 7.02.iml" filepath="$PROJECT_DIR$/Exercise 7.02/Exercise 7.02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 7.04/Exercise 7.04.iml" filepath="$PROJECT_DIR$/Exercise 7.04/Exercise 7.04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 7.05/Exercise 7.05.iml" filepath="$PROJECT_DIR$/Exercise 7.05/Exercise 7.05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise 8.01/Exercise 8.01.iml" filepath="$PROJECT_DIR$/Exercise 8.01/Exercise 8.01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WS01/WS01.iml" filepath="$PROJECT_DIR$/WS01/WS01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise 8.02/exercise 8.02.iml" filepath="$PROJECT_DIR$/exercise 8.02/exercise 8.02.iml" />
+    </modules>
+  </component>
+</project>
