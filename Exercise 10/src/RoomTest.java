@@ -9,5 +9,6 @@ public class RoomTest
     room1.registerGuest(guest1);
     System.out.println(room1.getPrice());
     System.out.println();
+    
   }
 }

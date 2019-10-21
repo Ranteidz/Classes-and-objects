@@ -41,9 +41,12 @@ if(type.isKingSize()){
 }
 return price;
 }
-/*public boolean isOccupied(){
-    return
-}*/
+public boolean isOccupied(){
+    if(!name.equals("")){
+      return true;
+    }
+    else return false;
+}
 
 public void registerGuest(Guest name){
 this.name=name;

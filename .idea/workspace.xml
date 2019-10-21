@@ -44,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RoomTest">
+  <component name="RunManager" selected="Application.PersonTest (1)">
     <configuration name="BedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BedTest" />
       <module name="Exercise 10" />
@@ -59,16 +59,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PersonTest" />
-      <module name="Exercise 7.02" />
+      <module name="Session 9" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PointTest" />
-      <module name="exercise 8.02" />
+    <configuration name="RoomListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RoomListTest" />
+      <module name="RoomUni" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonTest (1)" />
+        <item itemvalue="Application.GuestTest" />
+        <item itemvalue="Application.RoomListTest" />
         <item itemvalue="Application.RoomTest" />
         <item itemvalue="Application.BedTest" />
-        <item itemvalue="Application.GuestTest" />
-        <item itemvalue="Application.PersonTest" />
-        <item itemvalue="Application.PointTest" />
       </list>
     </recent_temporary>
   </component>
