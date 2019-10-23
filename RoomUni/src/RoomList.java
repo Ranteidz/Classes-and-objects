@@ -23,11 +23,11 @@ public class RoomList
   public String toString()
   {
     String returnString = "";
-    for (Room room: rooms)
+    for (Room room : rooms)
     {
       returnString += room.toString() + "\n";
     }
-    return  returnString;
+    return returnString;
   }
 
   public int getNumberOfRoomsWithHDMI()
@@ -35,7 +35,7 @@ public class RoomList
     int counter = 0;
     for (Room room : rooms)
     {
-      if(room.hasHDMI())
+      if (room.hasHDMI())
       {
         counter++;
       }
@@ -48,7 +48,7 @@ public class RoomList
     ArrayList<Room> returnList = new ArrayList<Room>();
     for (Room room : rooms)
     {
-      if(room.getCapacity() >= minCapacity)
+      if (room.getCapacity() >= minCapacity)
       {
         returnList.add(room);
       }

@@ -45,8 +45,12 @@ public class Brain
 
   public void remember(String info)
   {
-    passiveMemoryItemTwo = passiveMemoryItemOne;
-    passiveMemoryItemOne = activeMemoryItem;
+    String memoryContainer1,memoryContainer2;
+    memoryContainer1=passiveMemoryItemOne;
+    memoryContainer2=activeMemoryItem;
+    passiveMemoryItemTwo=memoryContainer1;
+    passiveMemoryItemOne=memoryContainer2;
+
 
     this.activeMemoryItem = info;
 
@@ -102,9 +106,9 @@ public class Brain
       return false;
     }
     Brain other = (Brain) obj;
-    return activeMemoryItem == other.activeMemoryItem
-        && passiveMemoryItemOne == other.passiveMemoryItemOne
-        && passiveMemoryItemTwo == other.passiveMemoryItemTwo;
+    return activeMemoryItem.equals(other.activeMemoryItem)
+        && passiveMemoryItemOne.equals(other.passiveMemoryItemOne)
+        && passiveMemoryItemTwo.equals(other.passiveMemoryItemTwo);
   }
 
 

@@ -90,6 +90,6 @@ public boolean equals(Object obj)
     return false;
   }
   Person other = (Person) obj;
-  return name.equals(other.getName()) && address.equals(other.getAddress()) && birthday.equals(other.getBirthday()) && brain.equals(other.brain);
+  return name.equals(other.getName()) && address.equals(other.getAddress()) && birthday==other.birthday && brain.equals(other.brain);
 }
 }

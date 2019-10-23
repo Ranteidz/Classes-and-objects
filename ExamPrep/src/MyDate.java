@@ -157,7 +157,8 @@ public class MyDate
       return false;
     }
     MyDate other = (MyDate) obj;
-    return day==other.getDay() && month==other.getMonth() && year==other.getYear();
+    return day == other.getDay() && month == other.getMonth() && year == other
+        .getYear();
   }
 
   public void stepForward(int days)
@@ -184,33 +185,12 @@ public class MyDate
     }
     return -1;
   }
+
   public MyDate copy()
   {
-    return new MyDate(getDay(),getDay(),getYear());
+    return new MyDate(getDay(), getDay(), getYear());
   }
 
-
-
- /* public boolean isBefore(MyDate other)
-  {
-    other = new MyDate();
-    if(<other)
-    {
-      return true;
-    }
-    else return false;
-
-  }*/
-
-
-/*public MyDate() {
-
-  }*/
-  /*  System.out.println("Day = " + c.get(Calendar.DAY_OF_MONTH));
-
-    System.out.println("Month = " + (c.get(Calendar.MONTH) + 1));
-
-    System.out.println("Year = " + c.get(Calendar.YEAR));*/
 }
 
 
