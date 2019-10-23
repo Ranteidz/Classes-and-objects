@@ -51,8 +51,11 @@ public class Date
 
   }
   public Date copy(){
-    return new Date();
+    Date other;
+    other = new Date(day, month, year);
+    return other;
   }
+
 
   public boolean equals(Object obj){
     if(!(obj instanceof Date)){
