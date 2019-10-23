@@ -12,6 +12,8 @@ public class Date
   public Date(){
 
   }
+
+
   public void set(int day, int month,int year){
     this.day=day;
     this.month=month;
