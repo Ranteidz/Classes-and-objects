@@ -40,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BrainTest">
+  <component name="RunManager" selected="Application.Testing">
     <configuration name="BrainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BrainTest" />
       <module name="ExamPrep" />
@@ -69,20 +69,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoomListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RoomListTest" />
-      <module name="RoomUni" />
+    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testing" />
+      <module name="ExamPrepEx11" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Testing" />
         <item itemvalue="Application.BrainTest" />
         <item itemvalue="Application.PersonTest" />
         <item itemvalue="Application.PersonTest (1)" />
         <item itemvalue="Application.GuestTest" />
-        <item itemvalue="Application.RoomListTest" />
       </list>
     </recent_temporary>
   </component>

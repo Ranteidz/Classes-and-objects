@@ -7,7 +7,7 @@ public class Service
   public Service(int mileage,Date date)
   {
     this.mileage=mileage;
-    date= new Date().copy();
+    this.date= date.copy();
   }
   public int getMileage(){
     return mileage;

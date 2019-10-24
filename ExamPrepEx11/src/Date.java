@@ -12,6 +12,8 @@ public class Date
   public Date(){
 
   }
+
+
   public void set(int day, int month,int year){
     this.day=day;
     this.month=month;
@@ -51,8 +53,11 @@ public class Date
 
   }
   public Date copy(){
-    return new Date();
+    Date other;
+    other = new Date(day, month, year);
+    return other;
   }
+
 
   public boolean equals(Object obj){
     if(!(obj instanceof Date)){
