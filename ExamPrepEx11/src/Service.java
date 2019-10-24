@@ -14,7 +14,7 @@ public class Service
   }
   public Date getDate()
   {
-    return new Date().copy();
+    return date.copy();
   }
   public boolean equals(Object obj){
     if(!(obj instanceof Service)){
