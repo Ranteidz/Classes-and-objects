@@ -46,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KindergardenTest">
+  <component name="RunManager" selected="Application.TheatreTest">
     <configuration name="BrainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BrainTest" />
       <module name="ExamPrep" />
@@ -57,13 +57,6 @@
     <configuration name="KindergardenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KindergardenTest" />
       <module name="ExamPrepT5" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PersonTest" />
-      <module name="Session 9" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,13 +75,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TheatreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TheatreTest" />
+      <module name="WS02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TheatreTest" />
         <item itemvalue="Application.KindergardenTest" />
         <item itemvalue="Application.Testing" />
         <item itemvalue="Application.BrainTest" />
         <item itemvalue="Application.PersonTest" />
-        <item itemvalue="Application.PersonTest (1)" />
       </list>
     </recent_temporary>
   </component>
