@@ -9,18 +9,15 @@ public class Test
 
     ClubMember member1 = new Junior("Bob",12,'m');
     ClubMember member2 = new Junior("Shanon",12,'F');
-    ClubMember member3 = new Senior("Peter",55,'D');
-    ClubMember member4 = new OldBoys("Angel", 50,4);
+    ClubMember member3 = new Senior("Peter",50,'D');
+    ClubMember member4 = new OldBoys("Mike", 50,4);
 
     array1.add(member1);
     array1.add(member2);
     array1.add(member3);
     array1.add(member4);
 
-    for (int i = 0; i <= array1.size(); i++)
-    {
 
-    }
 
     for (ClubMember member: array1)
     {

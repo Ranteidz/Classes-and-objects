@@ -11,7 +11,14 @@ public FootBall(int suitableAge,int diameter){
 
   @Override public String toString()
   {
-    return 
+    return getSuitableAge() +" "+ getDiameter();
   }
-
+public boolean equals(Object obj)
+{
+  if(!(obj instanceof FootBall)){
+    return false;
+  }
+  FootBall other = (FootBall) obj;
+  return super.equals(other);
+}
 }

@@ -18,6 +18,11 @@ public class OldBoys extends ClubMember
     this.yearsOfMembership = yearsOfMembership;
   }
 
+  @Override public String toString()
+  {
+    return super.toString() +" "+ yearsOfMembership;
+  }
+
   public double getMembershipFee()
   {
     if (yearsOfMembership < 5)
