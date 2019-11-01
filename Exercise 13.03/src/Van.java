@@ -19,6 +19,6 @@ public class Van extends Car
       return false;
     }
     Van other= (Van) arg;
-    return super.equals(other) && this.maxLoad=other.maxLoad;
+    return super.equals(other) && this.maxLoad==other.maxLoad;
   }
 }
