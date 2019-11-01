@@ -46,14 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TheatreTest">
-    <configuration name="BrainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BrainTest" />
-      <module name="ExamPrep" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="KindergardenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KindergardenTest" />
       <module name="ExamPrepT5" />
@@ -61,16 +54,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PersonTest" />
-      <module name="ExamPrep" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="WS04-2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="WS04" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testing (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Testing" />
-      <module name="ExamPrepEx11" />
+      <module name="Exercise 14.0" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Testing (1)" />
         <item itemvalue="Application.TheatreTest" />
         <item itemvalue="Application.KindergardenTest" />
-        <item itemvalue="Application.Testing" />
-        <item itemvalue="Application.BrainTest" />
-        <item itemvalue="Application.PersonTest" />
       </list>
     </recent_temporary>
   </component>
