@@ -11,6 +11,9 @@ public class Test
     base1.addPerson(person2);
     base1.addPerson(person3);
     base1.printAll();
+    System.out.println(person1.toString());
+    System.out.println(person2.toString());
+    System.out.println(person3.toString());
   }
 
 
