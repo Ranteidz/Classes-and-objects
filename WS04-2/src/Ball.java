@@ -2,11 +2,14 @@ public abstract class Ball extends Toy
 {
   private int diameter;
 
-  public Ball(int suitableAge,int diameter){
+  public Ball(int suitableAge, int diameter)
+  {
     super(suitableAge);
-    this.diameter=diameter;
+    this.diameter = diameter;
   }
-  public int getDiameter(){
+
+  public int getDiameter()
+  {
     return diameter;
   }
 

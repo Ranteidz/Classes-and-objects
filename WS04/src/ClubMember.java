@@ -3,28 +3,35 @@ public abstract class ClubMember
   private String name;
   private int age;
 
-  public ClubMember(String name,int age)
+  public ClubMember(String name, int age)
   {
-    this.name=name;
-    this.age=age;
+    this.name = name;
+    this.age = age;
   }
-  public String getName(){
+
+  public String getName()
+  {
     return name;
   }
-  public int getAge(){
+
+  public int getAge()
+  {
     return age;
   }
-  public void setAge(int age){
-    this.age=age;
+
+  public void setAge(int age)
+  {
+    this.age = age;
   }
-  public String toString(){
-    return name +"\n"+age;
+
+  public String toString()
+  {
+    return name + " " + age;
   }
+
   public abstract double getMembershipFee();
 
-
-
-  }
+}
 
 
 

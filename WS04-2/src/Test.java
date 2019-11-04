@@ -18,6 +18,12 @@ public class Test
          )
     {
       System.out.println(toys.play());
+      System.out.println(toys.toString());
+    }
+    for (Toy toys: array1
+         )
+    {
+      System.out.println(toys.equals(toy1));
     }
 
   }

@@ -2,28 +2,35 @@ public class Junior extends ClubMember
 {
 
   private char gender;
-  public Junior(String name,int age,char gender)
+
+  public Junior(String name, int age, char gender)
   {
-    super(name,age);
-    this.gender=gender;
+    super(name, age);
+    this.gender = gender;
   }
 
-  public char getGender(){
+  public char getGender()
+  {
     return gender;
   }
-  public String toString(){
-    return super.toString() + " "+ gender;
+
+  public String toString()
+  {
+    return super.toString() + " " + gender;
   }
 
   @Override public double getMembershipFee()
   {
-    if(gender=='M' || gender=='m'){
+    if (gender == 'M' || gender == 'm')
+    {
       return 400;
     }
-    if(gender =='F' || gender == 'f'){
+    if (gender == 'F' || gender == 'f')
+    {
       return 300;
     }
-    else return -1;
+    else
+      return -1;
   }
 
 }

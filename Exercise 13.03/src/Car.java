@@ -2,9 +2,10 @@ public class Car extends Vehicle
 {
   private String regNo;
 
-  public Car(String theOwner,double thePrice,String regNo){
-    super(theOwner,thePrice);
-    this.regNo=regNo;
+  public Car(String theOwner, double thePrice, String regNo)
+  {
+    super(theOwner, thePrice);
+    this.regNo = regNo;
   }
 
   public String getRegNo()
@@ -16,15 +17,20 @@ public class Car extends Vehicle
   {
     this.regNo = regNo;
   }
-  public String toString(){
-    return super.toString() +"\n"+regNo;
+
+  public String toString()
+  {
+    return super.toString() + "\n" + regNo;
   }
-  public boolean equals(Object arg){
-    if(!(arg instanceof Car)){
+
+  public boolean equals(Object arg)
+  {
+    if (!(arg instanceof Car))
+    {
       return false;
     }
-    Car other=(Car) arg;
-    return super.equals(other) && this.regNo==other.regNo;
+    Car other = (Car) arg;
+    return super.equals(other) && this.regNo == other.regNo;
   }
 }
 
