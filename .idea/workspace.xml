@@ -46,9 +46,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExceptionScanner">
+  <component name="RunManager" selected="Application.ExceptionUserInput">
     <configuration name="ExceptionScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExceptionScanner" />
+      <module name="Exercise 15.01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionUserInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionUserInput" />
       <module name="Exercise 15.01" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,20 +82,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Testing" />
-      <module name="Exercise 14.0" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionUserInput" />
         <item itemvalue="Application.ExceptionScanner" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Testing (1)" />
       </list>
     </recent_temporary>
   </component>

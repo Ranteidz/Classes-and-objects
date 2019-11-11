@@ -40,7 +40,9 @@ int sum=0;
      }
      catch (Exception e)
      {
+
        System.out.println("invalid input");
+       System.out.println(sum);
      }
    }
    else return;
