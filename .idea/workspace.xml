@@ -46,7 +46,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.ExceptionScanner">
+    <configuration name="ExceptionScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionScanner" />
+      <module name="Exercise 15.01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="WS04-2" />
@@ -75,20 +82,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TheatreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TheatreTest" />
-      <module name="WS02" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionScanner" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Testing (1)" />
-        <item itemvalue="Application.TheatreTest" />
       </list>
     </recent_temporary>
   </component>

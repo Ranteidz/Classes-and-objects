@@ -1,3 +1,5 @@
+import java.io.IOException;
+
 public class House extends Home
 {
   private double price;

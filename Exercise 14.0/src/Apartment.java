@@ -8,7 +8,7 @@ public class Apartment extends Home
     this.rent=rent;
   }
 
-  public String getInfo(){
+  public String getInfo() {
     return super.getAddress() + " " + rent;
   }
 

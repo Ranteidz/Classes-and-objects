@@ -12,7 +12,7 @@ public abstract class Home
     return address;
   }
 
-  public abstract String getInfo();
+  public abstract String getInfo() throws Exception;
   public abstract String toString();
   public  boolean equals(Object obj){
     if(!(obj instanceof Home)){
