@@ -9,6 +9,7 @@ public class IoFiles
 
   public static void main(String[] args)
   {
+    ////////////////////////////////////////////////////////////
     /*Scanner input = new Scanner(System.in);
 
     System.out.println("Enter the file name");
@@ -74,6 +75,7 @@ public class IoFiles
     }
     in.close();
 */
+    ///////////////////////////////////////////////////////////////////////
     StudentList list =new StudentList();
 
     File file = new File("Students.txt");
@@ -100,12 +102,13 @@ public class IoFiles
       int yearBirth=Integer.parseInt(token[6].trim());
       list.add(new Student(studentName,studyNumber,studentNationality,groupNumber,new MyDate(dayBirth,monthBirth,yearBirth)));
 
-/*
-public Student(String name, int studyNumber, String nationality,
-      int groupNumber, MyDate birthday)
 
-      2, 225859, Arnas Kromelis, LT, 13, 5, 95*/
     }
+    System.out.println(list);
+
+    Student student = new Student("John",123124,"DK",2,new MyDate(12,12,2000));
+    list.add(student);
+
     System.out.println(list);
   }
 }
