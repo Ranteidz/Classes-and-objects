@@ -104,6 +104,7 @@ public class IoFiles
 
 
     }
+    read.close();
     System.out.println(list);
 
     Student student = new Student("John",123124,"DK",2,new MyDate(12,12,2000));
