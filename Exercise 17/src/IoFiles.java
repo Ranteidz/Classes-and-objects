@@ -1,8 +1,8 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import java.text.ParseException;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class IoFiles
@@ -77,61 +77,59 @@ public class IoFiles
     in.close();
 */
     ///////////////////////////////////////////////////////////////////////
-    StudentList list = new StudentList();
-
-    File file = new File("Students.txt");
-    Scanner read = null;
-    try
-    {
-      read = new Scanner(file);
-    }
-    catch (FileNotFoundException e)
-    {
-      e.printStackTrace();
-    }
-
-    while (read.hasNext())
-    {
-
-      String line = read.nextLine();
-      String[] token = line.split(",");
-      int groupNumber = Integer.parseInt(token[0].trim());
-      int studyNumber = Integer.parseInt(token[1].trim());
-      String studentName = token[2].trim();
-      String studentNationality = token[3].trim();
-      int dayBirth = Integer.parseInt(token[4].trim());
-      int monthBirth = Integer.parseInt(token[5].trim());
-      int yearBirth = Integer.parseInt(token[6].trim());
-      list.add(
-          new Student(studentName, studyNumber, studentNationality, groupNumber,
-              new MyDate(dayBirth, monthBirth, yearBirth)));
-
-    }
-    read.close();
-    System.out.println(list);
-
-    Student student = new Student("John", 123124, "DK", 2,
+    StudentList students = new StudentList();
+    Student student1 = new Student("Bob", 222222, "LT", 2,
         new MyDate(12, 12, 2000));
-    list.add(student);
+    Student student2 = new Student("Cob", 222222, "LT", 2,
+        new MyDate(12, 12, 2000));
+    Student student3 = new Student("Dob", 222222, "LT", 2,
+        new MyDate(12, 12, 2000));
+    Student student4 = new Student("Mob", 222222, "LT", 2,
+        new MyDate(12, 12, 2000));
+    students.add(student1);
+    students.add(student2);
+    students.add(student3);
+    students.add(student4);
 
-    System.out.println(list);
-
-    StudentFile file1 = new StudentFile("Students.txt");
-    System.out.println(file1.getFile());
+    String fileName = "test.bin";
+    ObjectOutputStream out = null;
     try
     {
-      file1.readTextFile();
+      File file = new File(fileName);
+      FileOutputStream fos = new FileOutputStream(file);
+      out = new ObjectOutputStream(fos);
+
+    out.writeObject(students);
+
     }
-    catch (FileNotFoundException e)
+    catch (IOException e)
     {
       e.printStackTrace();
     }
-    catch (ParseException e)
+    finally
+    {
+      try
+      {
+        out.close();
+      }
+      catch (IOException e)
+      {
+        e.printStackTrace();
+      }
+    }
+
+    ObjectInputStream in = null;
+    try
+    {
+      File file = new File(fileName);
+      FileInputStream fis = new FileInputStream(file);
+      in = new ObjectInputStream(fis);
+StudentList data = (StudentList) in.readObject();
+      System.out.println(data);
+    }
+    catch (IOException | ClassNotFoundException e)
     {
       e.printStackTrace();
     }
-
-
   }
 }
-
